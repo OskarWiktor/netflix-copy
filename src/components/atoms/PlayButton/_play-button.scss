@@ -1,0 +1,14 @@
+.play-btn {
+    display: flex;
+    background-color: $accent-color;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 16px;
+    cursor: pointer;
+    .play-btn--text {
+        font: $text-small--bold;
+        color: white;
+        padding-right: 8px;
+        margin: auto;
+    }
+}

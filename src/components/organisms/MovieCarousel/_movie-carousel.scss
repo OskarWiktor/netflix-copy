@@ -1,0 +1,25 @@
+.movie-carousel {
+  width: 100%;
+  margin: 36px 0px;
+  padding: 12px;
+  .movie-carousel--title--wrapper {
+    @include wrapper;
+    .movie-carousel--title {
+      @include left-border;
+      font: $text-big;
+      color: $almost-white;
+    }
+  }
+  .movie-carousel--wrapper {
+    @include wrapper;
+    overflow: hidden;
+  }
+}
+.swiper-slide {
+  width: 180px;
+  margin-right: 0px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}

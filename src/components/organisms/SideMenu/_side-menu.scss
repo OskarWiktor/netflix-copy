@@ -1,0 +1,31 @@
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 101px 2dvw 0px 2dvw;
+    width: clamp( 100px, 30%, 300px);
+    background-color: rgb(9, 9, 9);
+    .side-menu--title {
+        padding: 24px 12px 6px 12px;
+        font: $text-normal;
+        color: $almost-white;
+        border-bottom: 1px solid $accent-color;
+    }
+    .side-menu--genres {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: $almost-white;
+        font: $text-small;
+        padding: 6px;
+        text-align: left;
+    }
+    .side-menu--genres:hover {
+        cursor: pointer;
+        color: $accent-color;
+        font: $text-small--bold;
+    }
+    .side-menu--genres:focus {
+        color: $accent-color;
+        font: $text-small--bold;
+    }
+}

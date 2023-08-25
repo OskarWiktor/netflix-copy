@@ -1,0 +1,16 @@
+@font-face {
+    font-family: netflix-font;
+    src: url(../../font/BebasNeue.otf);
+}
+
+$main-heading: bold calc(2.4em + 0.9vw) 'Noto Sans JP', sans-serif;
+$second-heading: bold calc(1.4em + 0.8vw) 'Noto Sans JP', sans-serif;
+
+$text-big: calc(1.0em + 0.6vw) 'Noto Sans JP', sans-serif;
+$text-big--bold: bold calc(1.0em + 0.6vw) 'Noto Sans JP', sans-serif;
+
+$text-normal: calc(0.9em + 0.4vw) 'Noto Sans JP', sans-serif;
+$text-normal--bold: bold calc(0.9em + 0.9vw) 'Noto Sans JP', sans-serif;
+
+$text-small: calc(0.8em + 0.2vw) 'Noto Sans JP', sans-serif;
+$text-small--bold: bold calc(0.8em + 0.2vw) 'Noto Sans JP', sans-serif;

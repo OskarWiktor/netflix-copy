@@ -1,0 +1,36 @@
+.account {
+  padding: 101px 12px 12px 12px;
+  .account--title {
+    margin: 16px 0px;
+    padding: 0px 12px;
+    font: $second-heading;
+    color: $almost-white;
+  }
+  .account--movie-grid {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: repeat(7, 1fr);
+
+    @media screen and (max-width: 1420px) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    @media screen and (max-width: 992px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 576px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

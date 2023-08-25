@@ -1,0 +1,11 @@
+@mixin wrapper {
+  padding: 6px 0px;
+  max-width: 1700px;
+  display: flex;
+  margin: auto;
+}
+
+@mixin left-border {
+  padding-left: 10px;
+  border-left: 4px solid $accent-color;
+}

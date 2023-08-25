@@ -1,0 +1,35 @@
+// base
+@import "abstract/normalize";
+@import "abstract/typography";
+@import "abstract/colors";
+@import "abstract/base";
+@import 'abstract/mixin';
+
+//atoms 
+@import "../components/atoms/PlayButton/play-button";
+@import "../components/atoms/LikeButton/like-button";
+
+//molecules
+@import "../components/molecules/MovieCard/movie-card";
+@import "../components/molecules/HeroSlide/hero-slide";
+
+//organisms
+@import "../components/organisms/SideMenu/side-menu";
+@import "../components/organisms/MovieGrid/movie-grid.scss";
+@import "../components/organisms/Navbar/navbar";
+@import "../components/organisms/MovieCarousel/movie-carousel";
+@import "../components/organisms/HeroCarousel/hero-carousel";
+
+//pages
+@import "../components/pages/Category/category";
+@import "../components/pages/SingleMovie/single-movie";
+@import "../components/pages/Search/search";
+@import "../components/pages/Account/account";
+
+body {
+    background-color: rgb(24, 24, 24);
+    line-height: 1.5;
+    h1,h2,h3,h4,h5,h6,a,p {
+        color: $almost-white;
+    }
+}
